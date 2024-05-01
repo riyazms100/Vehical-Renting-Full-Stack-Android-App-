@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity"
+    android:background="@drawable/backgroundxml">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailTitle"
+        android:text="Title"
+        android:layout_marginTop="14dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:id="@+id/detailImage"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:src="@drawable/uploadimg"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number :"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Location"
+
+        android:layout_gravity="center"
+        android:id="@+id/detailLang"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location :"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Mobile Number"
+        android:layout_gravity="center"
+        android:id="@+id/detailDesc"
+
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/whitebackground"
+        android:gravity="center"
+        android:text="Note: Utilizing SpareWheels Services \n
+
+Dear Valued Users, \n
+
+As per our Terms and Conditions, renting a vehicle through SpareWheels entails the utmost consideration for your security and responsibility. Prior to renting, it is imperative to furnish the requisite local documentation to validate your identity and ensure a seamless rental experience.
+
+Please note that any damages incurred during the rental period are subject to charges as outlined in our policy. The pricing structure may vary based on location and distance. We encourage you to engage in a discussion with the respective renter to ascertain the specific details regarding pricing.
+
+Rest assured, all your documents are treated with the utmost confidentiality. We prioritize your loyalty and strive to provide a secure and trustworthy platform for your vehicle rental needs.
+
+Should you encounter any issues or require assistance, please do not hesitate to contact our dedicated support team for prompt resolution.
+
+\n Thank you for choosing SpareWheels." />
+
+
+</LinearLayout>

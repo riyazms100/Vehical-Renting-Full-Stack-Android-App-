@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/backgroundxml"
+    tools:context=".terms_condition">
+
+
+
+    <TextView
+        android:id="@+id/textViewTermsHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:textColor="#A8DDF6"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="680dp"
+        android:layout_above="@id/Acceptbutton"
+        android:layout_below="@id/textViewTermsHeading"
+        android:layout_marginBottom="63dp"
+        android:background="@drawable/whitebackground">
+
+
+        <TextView
+            android:id="@+id/textViewTermsInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@drawable/top_arc2"
+            android:padding="8dp"
+            android:text="   E n s u r e ! \n \n \nVehicle Condition: Users acknowledge that they are responsible for ensuring that the vehicle they intend to rent out is in a safe and roadworthy condition before offering it for rent.\n
+
+Security Measures: Users understand that they should take appropriate security measures, such as installing anti-theft devices or GPS trackers, to minimize the risk of vehicle theft during the rental period.\n
+
+Insurance Coverage: Users agree that any insurance coverage for the rented vehicle is their responsibility and that they should inform renters about the extent of coverage provided.\n
+
+Identity Verification: Users must verify the identity of the renter before handing over the vehicle. They should request valid identification and keep records of the renter's details.\n
+
+Agreement Terms: Users acknowledge that they should have a written rental agreement with the renter, outlining the terms and conditions of the rental, including duration, rental fee, and any additional charges or penalties.\n
+
+Security Deposit: Users may require renters to pay a security deposit before renting the vehicle to cover any potential damages or losses. They agree to return the deposit promptly upon the safe return of the vehicle.\n
+
+Vehicle Tracking: Users understand that they may track the rented vehicle's location during the rental period using GPS tracking devices installed in the vehicle for security purposes.\n
+
+Report Incidents: Users agree to report any accidents, damages, or theft involving the rented vehicle to the appropriate authorities and to the platform providing the rental service promptly.\n
+
+Liability: Users acknowledge that they are solely responsible for any consequences arising from renting out their vehicle, including accidents, damages, or misuse by the renter.\n
+
+Indemnity: Users agree to indemnify and hold harmless the platform providing the rental service from any claims, damages, or losses resulting from their rental activities."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Acceptbutton"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonbackground"
+        android:gravity="center"
+        android:onClick="onAcceptClicked"
+        android:text="Accept"
+        android:textColor="@color/startcolor"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Acceptbutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="720dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/background_button_social"
+        android:checked="false"
+        android:gravity="center"
+        android:text=" I agree to the terms and conditions         "
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+
